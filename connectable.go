@@ -16,6 +16,7 @@ import (
 	"github.com/gliderlabs/connectable/pkg/lookup"
 
 	_ "github.com/gliderlabs/connectable/pkg/lookup/dns"
+	_ "github.com/gliderlabs/connectable/pkg/lookup/etcd"
 )
 
 var Version string
